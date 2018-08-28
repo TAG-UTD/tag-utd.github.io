@@ -8,11 +8,16 @@ generated HTML code for github pages to work. After cloning, run the commands
 here:
 
 ```
+git submodule init
+git submodule update
 npm install
 ```
 
-This assumes that you have node-js installed, and that it is on your path. You 
-may also need to type in the following to install hexo-cli on your path:
+The first two commands initializes submodules (the theme files are found as a 
+separate repository), and then performs a checkout of those submodules. Then we
+install all the node modules needed for hexo. This assumes that you have node-js
+installed, and that it is on your path. You may also need to type in the
+following to install hexo-cli on your path:
 
 ```
 npm install -g hexo-cli
