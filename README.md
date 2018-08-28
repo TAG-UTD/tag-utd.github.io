@@ -1,7 +1,11 @@
 # tag-utd.github.io
 
 This is the website source for the TAG-UTD website. This uses hexo as our static
-web generator. After cloning, run the commands here:
+web generator. First you must clone the repository. Note that when cloning this
+repository, it clones the `source` branch rather than the `master` branch by
+default. This is okay because the master branch consists of the already
+generated HTML code for github pages to work. After cloning, run the commands 
+here:
 
 ```
 npm install
