@@ -82,3 +82,14 @@ deploy:
   repo: https://github.com/TAG-UTD/tag-utd.github.io.git
   branch: master
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+
+# Markdown formatting
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: false
+  smartLists: true
+  smartypants: false
+
