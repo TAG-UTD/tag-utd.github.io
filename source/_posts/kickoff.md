@@ -11,3 +11,8 @@ there!
 
 Can't make it? We will prepare a video for you that we will release shortly
 after that covers what we did in the session. Stay tuned for more information!
+
+UPDATE: Here is the [link][1] to our video in case you have missed our first
+meeting!
+
+[1]: https://www.youtube.com/watch?v=QvadDPVSLwY&t=22s
