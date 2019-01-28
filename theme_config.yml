@@ -1,0 +1,45 @@
+# Logo (Font Awesome Class)
+fa_logo: fa-cube
+
+# Header
+menu:
+  Home: /
+  Archives: /archives
+  About: /about.html
+  VMs: /vms.html
+  Tags: /tags
+  Categories: /categories
+  Contact: /contact.html
+
+# Default post title
+default_post_title: Untitled
+
+# Archive Date Format
+archive_date_format: MMM YYYY
+
+# Comments.
+comments:
+  # Disqus comments
+  disqus_shortname:
+
+# Google Analytics Tracking ID
+google_analytics:
+
+# Social Accounts
+#twitter_url: https://twitter.com/?lang=en
+facebook_url: https://www.facebook.com/The-Assembly-Group-288808061906162
+#instagram_url: https://www.instagram.com/
+#dribble_url: https://dribbble.com/
+github_url: https://github.com/TAG-UTD
+#googleplus_url: https://plus.google.com/
+#behance_url: https://www.behance.net/
+#fivehundredpx_url: https://500px.com/
+email_url: tag.utd@gmail.com
+#rss_url: \#
+
+# Footer About Text
+footer_about: "Welcome to the official TAG (The Assembly Group) website! Here we talk assembly, but we welcome everyone to come join us!"
+
+# Footer Copyright Line
+footer_copyright: "Copyright (c) 2018-2019 TAG."
+
