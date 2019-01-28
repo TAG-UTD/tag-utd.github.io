@@ -83,8 +83,10 @@ var alphaDust = function () {
 
 
 $(document).ready(function () {
+    console.log("HI");
     alphaDust.initImageCaptions();
     alphaDust.initPostHeader();
     alphaDust.initMenu();
     alphaDust.displayArchives();
+    console.log("HI");
 });
