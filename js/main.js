@@ -2,6 +2,15 @@ var alphaDust = function () {
 
     var _menuOn = false;
 
+    function initImageCaptions() {
+        $('.post').find('img').each(function() {
+            $(this).wrap('<div class="image_container"></div>');
+            if (this.alt) {
+              $(this).after('<span class="caption">' + this.alt + '</span>');
+            }
+        });
+    }
+
     function initPostHeader() {
         $('.main .post').each(function () {
             var $post = $(this);
@@ -65,6 +74,7 @@ var alphaDust = function () {
     }
 
     return {
+        initImageCaptions: initImageCaptions,
         initPostHeader: initPostHeader,
         initMenu: initMenu,
         displayArchives: displayArchives
@@ -73,6 +83,7 @@ var alphaDust = function () {
 
 
 $(document).ready(function () {
+    alphaDust.initImageCaptions();
     alphaDust.initPostHeader();
     alphaDust.initMenu();
     alphaDust.displayArchives();
