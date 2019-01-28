@@ -341,10 +341,19 @@ section.main .post .content .pullquote {
 section.main .post .content .pullquote.left {
   float: left;
 }
-section.main .post .content img {
+section.main .post .content .image_container {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+section.main .post .content .image_container img {
   display: block;
-  margin: 0 auto;
+  margin: 0px;
   max-width: 100%;
+}
+section.main .post .content .image_container .caption {
+  color: #aaa;
+  font-size: 0.9em;
 }
 section.main .post .content .video-container {
   position: relative;
@@ -547,6 +556,10 @@ footer.footer-content .footer-social-icons li a:link,
 footer.footer-content .footer-social-icons li a:visited,
 footer.footer-content .footer-social-icons li a:active {
   border-bottom: 0;
+}
+footer.footer-content .footer-acknowledge {
+  margin: 15px 0 15px 0;
+  font-size: 0.8em;
 }
 footer.footer-content .footer-copyright {
   margin: 0 0 40px 0;
