@@ -10,8 +10,9 @@
 
     <!--Description-->
     
-        <meta name="description" content="Hello. Welcome to the official TAG (The Assembly Group) website! We don&amp;#39;t have
-much stuff on this website (yet!), but we will post important annou">
+        <meta name="description" content="tl;dr: google drive link for the VMs. You only need to download one of
+these. Download VirtualBox or vmware, then select File-&amp;gt;Import or
+File-&amp;gt;I">
     
 
     <!--Author-->
@@ -21,7 +22,7 @@ much stuff on this website (yet!), but we will post important annou">
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="About us!"/>
+        <meta property="og:title" content="VM&#39;s for TAG"/>
     
 
     <!--Open Graph Description-->
@@ -43,7 +44,7 @@ much stuff on this website (yet!), but we will post important annou">
 
     <!-- Title -->
     
-    <title>About us! - The Assembly Group</title>
+    <title>VM&#39;s for TAG - The Assembly Group</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
@@ -155,13 +156,13 @@ much stuff on this website (yet!), but we will post important annou">
 
     <div class="post-header">
         <h1 class="title">
-            <a href="/about.html">
-                About us!
+            <a href="/vms.html">
+                VM's for TAG
             </a>
         </h1>
         <div class="post-info">
             
-                <span class="date">2018-08-27</span>
+                <span class="date">2019-01-27</span>
             
             
             
@@ -174,12 +175,44 @@ much stuff on this website (yet!), but we will post important annou">
         
 
         <!-- Post Content -->
-        <p>Hello. Welcome to the official TAG (The Assembly Group) website! We don&#39;t have
-much stuff on this website (yet!), but we will post important annoucement and
-meeting information here later down the road!</p>
-<p>We talk assembly here! But we know that you probably don&#39;t have much experience
-in assembly, so here in TAG, we welcome everyone to come, even if you don&#39;t have
-much experience in it!</p>
+        <blockquote>
+<p>tl;dr: <a href="https://drive.google.com/drive/folders/1icTeQHf5NU_lAoy8lLhL_D4wBNikoUYy?usp=sharing" target="_blank" rel="noopener">google drive link</a> for the VMs. You only need to download one of
+these. Download VirtualBox or vmware, then select <code>File-&gt;Import</code> or
+<code>File-&gt;Import appliance</code>, and select the ova file from the link of your choice.
+The default password is <code>tagiscool</code>, though I <strong>strongly</strong> suggest changing the
+password to something else once you download it.</p>
+</blockquote>
+<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>Assembly is a very OS/platform-dependent language.</p>
+<p>What that means is if I have a Windows laptop, and you have a Mac computer, the
+way we write assembly greatly differs between the two platforms (even though
+both computers operate as a x86 architecture). </p>
+<p>As such, to make it easier for everyone follow along and try the code (and not
+having to worry about it being wrong), I have set up a three different VMs,
+which are ALL linux based, more specifically Ubuntu-based: Ubuntu, Linux Mint,
+and Elementary OS. </p>
+<h2 id="Breakdown-of-Distros"><a href="#Breakdown-of-Distros" class="headerlink" title="Breakdown of Distros"></a>Breakdown of Distros</h2><p>These three separate distros all have nasm/nasmx installed and have SASM (which
+is a x86 assembly IDE) installed! </p>
+<p>The difference, really, is in the aesthetics and in the look-and-feel.
+Elementary OS is built to look more like a macOS computer and Linux Mint is
+built to look more like Windows. Because they are all linux-based, you can run
+similar commands, and write similar assembly programs, and they will build on
+those. You should also be able to fully follow what we are doing without
+modifying anything. Screenshots below:</p>
+<p><img src="/files/vm/ubuntu.png" alt="Ubuntu screenshot"> <img src="/files/vm/mint.png" alt="Linux mint screenshot"> <img src="/files/vm/elementary.png" alt="Elementary OS
+screenshot"></p>
+<p>To install, follow the <a href="https://drive.google.com/drive/folders/1icTeQHf5NU_lAoy8lLhL_D4wBNikoUYy?usp=sharing" target="_blank" rel="noopener">google drive</a> link, and you will get three ova
+files in a folder. Each of these ova&#39;s correspond to each of the above
+screenshots. You only need to choose one of these. Once you choose your pick,
+you will need to download VirtualBox or VMware to run this. In VMware you can
+select <code>File-&gt;Import</code> to import ova files, and in VirtualBox, you select
+<code>File-&gt;Import appliance</code> to do so.</p>
+<p>Each of these has a default username <code>ubuntu</code> and default password <code>tagiscool</code>
+(don&#39;t tell anybody about this). I <strong>strongly</strong> suggest changing this password
+right away!</p>
+<h2 id="Manual-Installation"><a href="#Manual-Installation" class="headerlink" title="Manual Installation"></a>Manual Installation</h2><p>If you somehow can&#39;t run a VM, or if you just simply <em>hate</em> Ubuntu, you can also
+just manually install all these things. This the link to <a href="https://gist.github.com/theKidOfArcrania/c1d553ed9c76d3815c22620327e2b953" target="_blank" rel="noopener">my build script</a>
+used to build the VMs (don&#39;t guarentee that that will work on all machines), or
+you can follow these <a href="https://docs.google.com/document/d/1-c-XLwcS8MfXIfl00WBD2_rvStX3vgBn9yO88h0om4c/edit?usp=sharing" target="_blank" rel="noopener">install instructions</a> as well. </p>
 
     </div>
 
