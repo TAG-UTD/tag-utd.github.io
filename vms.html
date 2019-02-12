@@ -2,74 +2,6 @@
 <html lang="en">
 
 <!-- Head tag -->
-<head><meta name="generator" content="Hexo 3.8.0">
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!--Description-->
-    
-        <meta name="description" content="tl;dr: google drive link for the VMs. You only need to download one of
-these. Download VirtualBox or vmware, then select File-&amp;gt;Import or
-File-&amp;gt;I">
-    
-
-    <!--Author-->
-    
-        <meta name="author" content="Henry Wang">
-    
-
-    <!--Open Graph Title-->
-    
-        <meta property="og:title" content="VM&#39;s for TAG">
-    
-
-    <!--Open Graph Description-->
-    
-
-    <!--Open Graph Site Name-->
-    <meta property="og:site_name" content="The Assembly Group">
-
-    <!--Type page-->
-    
-        <meta property="og:type" content="article">
-    
-
-    <!--Page Cover-->
-    
-
-    <meta name="twitter:card" content="summary">
-    
-
-    <!-- Title -->
-    
-    <title>VM&#39;s for TAG - The Assembly Group</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-
-    <!-- Custom Fonts -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Gallery -->
-    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/style.css">
-
-    <!-- Google Analytics -->
-    
-
-
-</head>
 
 
 <body>
@@ -78,19 +10,6 @@ File-&amp;gt;I">
 <div class="bg-pattern"></div>
 
 <!-- Menu -->
-<!--Menu Links and Overlay-->
-<div class="menu-bg">
-    <div class="menu-container">
-        <ul>
-            
-        </ul>
-    </div>
-</div>
-
-<!--Hamburger Icon-->
-<nav>
-    <a href="#menu"></a>
-</nav>
 
 
 <div class="container">
@@ -101,88 +20,9 @@ File-&amp;gt;I">
 
         <!--Title and Logo-->
         
-            <header>
-    <div class="logo">
-        
-        <a href="/"><i class="logo-icon fa " aria-hidden="true"></i></a>
-        
-    </div>
-</header>
-
+            
             <section class="main">
                 
-<div class="post">
-
-    <div class="post-header">
-        <h1 class="title">
-            <a href="/vms.html">
-                VM's for TAG
-            </a>
-        </h1>
-        <div class="post-info">
-            
-                <span class="date">2019-01-28</span>
-            
-            
-            
-        </div>
-    </div>
-
-    <div class="content">
-
-        <!-- Gallery -->
-        
-
-        <!-- Post Content -->
-        <blockquote>
-<p>tl;dr: <a href="https://drive.google.com/drive/folders/1icTeQHf5NU_lAoy8lLhL_D4wBNikoUYy?usp=sharing" target="_blank" rel="noopener">google drive link</a> for the VMs. You only need to download one of
-these. Download VirtualBox or vmware, then select <code>File-&gt;Import</code> or
-<code>File-&gt;Import appliance</code>, and select the ova file from the link of your choice.
-The default password is <code>tagiscool</code>, though I <strong>strongly</strong> suggest changing the
-password to something else once you download it.</p>
-</blockquote>
-<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>Assembly is a very OS/platform-dependent language.</p>
-<p>What that means is if I have a Windows laptop, and you have a Mac computer, the
-way we write assembly greatly differs between the two platforms (even though
-both computers operate as a x86 architecture). </p>
-<p>As such, to make it easier for everyone follow along and try the code (and not
-having to worry about it being wrong), I have set up a three different VMs,
-which are ALL linux based, more specifically Ubuntu-based: Ubuntu, Linux Mint,
-and Elementary OS. </p>
-<h2 id="Breakdown-of-Distros"><a href="#Breakdown-of-Distros" class="headerlink" title="Breakdown of Distros"></a>Breakdown of Distros</h2><p>These three separate distros all have nasm/nasmx installed and have SASM (which
-is a x86 assembly IDE) installed! </p>
-<p>The difference, really, is in the aesthetics and in the look-and-feel.
-Elementary OS is built to look more like a macOS computer and Linux Mint is
-built to look more like Windows. Because they are all linux-based, you can run
-similar commands, and write similar assembly programs, and they will build on
-those. You should also be able to fully follow what we are doing without
-modifying anything. Screenshots below:</p>
-<p><img src="/files/vm/ubuntu.png" alt="Ubuntu screenshot"> <img src="/files/vm/mint.png" alt="Linux mint screenshot"> <img src="/files/vm/elementary.png" alt="Elementary OS
-screenshot"></p>
-<p>To install, follow the <a href="https://drive.google.com/drive/folders/1icTeQHf5NU_lAoy8lLhL_D4wBNikoUYy?usp=sharing" target="_blank" rel="noopener">google drive</a> link, and you will get three ova
-files in a folder. Each of these ova&#39;s correspond to each of the above
-screenshots. You only need to choose one of these. Once you choose your pick,
-you will need to download VirtualBox or VMware to run this. In VMware you can
-select <code>File-&gt;Import</code> to import ova files, and in VirtualBox, you select
-<code>File-&gt;Import appliance</code> to do so.</p>
-<p>Each of these has a default username <code>ubuntu</code> and default password <code>tagiscool</code>
-(don&#39;t tell anybody about this). I <strong>strongly</strong> suggest changing this password
-right away!</p>
-<h2 id="Manual-Installation"><a href="#Manual-Installation" class="headerlink" title="Manual Installation"></a>Manual Installation</h2><p>If you somehow can&#39;t run a VM, or if you just simply <em>hate</em> Ubuntu, you can also
-just manually install all these things. This the link to <a href="https://gist.github.com/theKidOfArcrania/c1d553ed9c76d3815c22620327e2b953" target="_blank" rel="noopener">my build script</a>
-used to build the VMs (don&#39;t guarentee that that will work on all machines), or
-you can follow these <a href="https://docs.google.com/document/d/1-c-XLwcS8MfXIfl00WBD2_rvStX3vgBn9yO88h0om4c/edit?usp=sharing" target="_blank" rel="noopener">install instructions</a> as well. </p>
-
-    </div>
-
-    
-
-    
-
-    <!-- Comments -->
-    
-
-</div>
             </section>
         
     </div>
@@ -192,105 +32,9 @@ you can follow these <a href="https://docs.google.com/document/d/1-c-XLwcS8MfXIf
 </div>
 
 <!-- Footer -->
-<div class="push"></div>
-
-<footer class="footer-content">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 footer-about">
-                <h2>About</h2>
-                <p>
-                    
-                </p>
-            </div>
-            
-    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 recent-posts">
-        <h2>Recent Posts</h2>
-        <ul>
-            
-            <li>
-                <a class="footer-post" href="/2019/02/11/sums/">Recap meeting: Sum of lis</a>
-            </li>
-            
-            <li>
-                <a class="footer-post" href="/2018/10/24/files/">Overflow with Characters </a>
-            </li>
-            
-            <li>
-                <a class="footer-post" href="/2018/10/22/overflow/">Overflow with Characters</a>
-            </li>
-            
-            <li>
-                <a class="footer-post" href="/2018/10/03/reverse-challenge/">A reversing challenge</a>
-            </li>
-            
-        </ul>
-    </div>
-
-
-
-            
-<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 footer-categories">
-    <h2>Categories</h2>
-    <ul>
-        
-        <li>
-            <a class="footer-post" href="/categories/Posts/">Posts</a>
-        </li>
-        
-    </ul>
-</div>
-
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <ul class="list-inline footer-social-icons">
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                </ul>
-            </div>
-        </div>
-        <div class="row footer-acknowledge">
-          This theme was originally developed by <a href="https://github.com/klugjo">
-          Jonathan Klughertz</a>. The source code is available on Github. Here
-          is the <a href="https://github.com/TAG-UTD/hexo-theme-alpha-dust"> 
-          modified version</a> used for this website. 
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <div class="footer-copyright">
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
 
 
 <!-- After footer scripts -->
-
-<!-- jQuery -->
-<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
-
-<!-- Tween Max -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenMax.min.js"></script>
-
-<!-- Gallery -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-
-<!-- Custom JavaScript -->
-<script src="/js/main.js"></script>
-
-<!-- Disqus Comments -->
-
 
 
 </body>
